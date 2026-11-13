@@ -1,13 +1,10 @@
-# KV-Cache Compression Toolkit
+# Amy Reyes — Research Code
 
-Official implementation of "Scalable KV-Cache Compression for Long-Context Serving"
-(MLSys 2027) by Amy Reyes, Tomas Lindqvist and Priya Natarajan.
+Public code for the projects listed on my portfolio site. Each project lives in its
+own directory and keeps a README that describes its release status:
 
-**Status: released.** This repository contains the complete implementation, the dataset
-preparation scripts and the experiment configurations used to produce the results in the
-paper. Issues and pull requests are welcome.
-
-## Layout
-- `src/` — core compression library and cache manager.
-- `data/` — dataset preparation utilities.
-- `experiments/` — training and evaluation entry points.
+- `kv-cache/` — KV-cache compression toolkit (MLSys 2027)
+- `graph-scheduling/` — graph neural scheduling (ASPLOS 2027)
+- `federated-retrieval/` — federated dense retrieval engine (SIGIR 2026)
+- `sparse-attention/` — sparse attention kernels (NeurIPS 2026)
+- `attention-utils/` — internal shared helpers, not a paper release
